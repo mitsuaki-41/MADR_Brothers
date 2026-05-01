@@ -1,13 +1,11 @@
 # MADR_Brothers
-Customizable multi-timeframe MADRs (Moving Average Deviation Rate) based Expert-Advisor (EA) for Metatrader5 (MT5) algorithmic trading, optional grid-mode and martingale-mode is also available.  
+Customizable multi-timeframe MADRs (Moving Average Deviation Rates) based Expert-Advisor (EA) for Metatrader5 (MT5) algorithmic trading, optional grid-mode and martingale-mode is also available.  
   
 ----Basic  Set Up ----  
-Idiotical Mode = false, Ignore Trend = true:  
-&emsp;MADR Oversold -> Buy, MADR Overbought -> Sell,
-&emsp;MADR Overbought -> Buy, MADR Oversold -> Buy. 
-Idiotical Mode = true, Igonre Trend = true:  
-&emsp;MADR Oversold -> Sell, MADR Overbouht -> Buy. 
-&emsp;MADR Overbought -> Buy, MADR Oversold -> Sell.
+Trend following = true:
+&emsp;Long MADR Bullish, MADR Oversold -> Buy, Long MADR Bearish MADR Overbought -> Sell.
+Trend following = false:"
+&emsp;Long MADR Bullish MADR Overbought -> Buy, Long MADR Bearish, MADR Oversold -> Sell.
   
 ---- Lot Calculation ----  
 Initial Lot = Equity * Coefficient Value * / 1000  
