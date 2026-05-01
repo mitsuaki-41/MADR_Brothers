@@ -3,9 +3,9 @@ Customizable multi-timeframe MADRs (Moving Average Deviation Rates) based Expert
   
 ----Basic  Set Up ----  
 Trend following = true:  
-&emsp;Long MADR Bullish, MADR Oversold -> Buy, Long MADR Bearish MADR Overbought -> Sell.  
+&emsp;Long MADR Bullish, MADR Oversold -> Buy, Long MADR Bearish, MADR Overbought -> Sell.  
 Trend following = false:  
-&emsp;Long MADR Bullish MADR Overbought -> Buy, Long MADR Bearish, MADR Oversold -> Sell.  
+&emsp;Long MADR Bullish, MADR Overbought -> Sell, Long MADR Bearish, MADR Oversold -> Buy.  
   
 ---- Lot Calculation ----  
 Initial Lot = Equity * Coefficient Value * / 1000  
