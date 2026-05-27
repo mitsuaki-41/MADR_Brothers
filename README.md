@@ -10,6 +10,7 @@ Trend following = false:
 ---- Lot Calculation ----  
 Initial Lot = Equity * Coefficient Value * / 1000  
 The Maximum Initial Lot Size is Calculated based on the Lot Multiplier, Loss Count, Division Value.  
+The Current Lot Size is calculated based on the Lot Calculation of settings and Grid Count (if it is enabled).  
   
 <img alt="preview1" src="https://github.com/mitsuaki-41/MADR_Brothers/blob/main/madr_brothers_preview1.png?raw=true" width="836" />  
   
